@@ -113,7 +113,7 @@ window.Echo = new Echo({
 <a name="concept-overview"></a>
 ## 概念综述
 
-Laravel 的事件广播允许你使用基于驱动的 WebSockets 将服务端的 Larevel 事件广播到客户端的 JavaScript 应用程序。当前的 Laravel 自带了 [Pusher](http://pusher.com) and Redis 驱动。通过使用 [Laravel Echo](#installing-laravel-echo) 的 Javascript 包，我们可以很方便地在客户端消费事件。
+Laravel 的事件广播允许你使用基于驱动的 WebSockets 将服务端的 Larevel 事件广播到客户端的 JavaScript 应用程序。当前的 Laravel 自带了 [Pusher](http://pusher.com) 和 Redis 驱动。通过使用 [Laravel Echo](#installing-laravel-echo) 的 Javascript 包，我们可以很方便地在客户端消费事件。
 
 事件通过「频道」来广播，这些频道可以被指定为公开的或私有的。任何访客都可以订阅一个不需要认证和授权的公开频道；然而，如果想订阅一个私有频道，那么该用户必须通过认证，并获得该频道的授权。
 
